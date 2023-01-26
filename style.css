@@ -1,0 +1,14 @@
+
+body {
+    color:red;
+    font-weight:bold;
+}
+
+img {
+    margin-bottom: 30px;
+    border: 10px solid;
+    border-top: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    border-left: solid black;
+  }

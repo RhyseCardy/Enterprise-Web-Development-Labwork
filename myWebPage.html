@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <title>Price Calculator</title>
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+
 </head>
 <body>
 
@@ -22,6 +25,8 @@
 </div>
 
 
+<img src="money.jfif">
+
 <script>
   function calculatePrice() {
     var s = document.getElementById("salary").value;
@@ -31,8 +36,9 @@
     console.log(d)
     let finalPrice = 0;
     dailyRate = s/365;
-    finalPrice = dailyRate * d;
-    document.getElementById("finalPrice").innerHTML = finalPrice;
+    finalPrice = (dailyRate * d).toFixed(2);
+    document.getElementById("finalPrice").innerHTML = ("£") + finalPrice + (" - ") + ("The Average Salary of a Web Developer is £27,355");
+
   }
   </script>
 
