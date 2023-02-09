@@ -1,7 +1,6 @@
 {
   "name": "enterprise-web-development-lab-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.20.1",
@@ -74,5 +73,6 @@
   "bugs": {
     "url": "https://github.com/RhyseCardy/Enterprise-Web-Development-Lab-1/issues"
   },
-  "homepage": "https://github.com/RhyseCardy/Enterprise-Web-Development-Lab-1#readme"
+  "homepage": "https://github.com/RhyseCardy/Enterprise-Web-Development-Lab-1#readme",
+  "description": ""
 }
